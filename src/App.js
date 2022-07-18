@@ -1,61 +1,61 @@
-
 import React from "react";
 import "./App.css"
+import Header from "./componets/Header";
+import BlogEntries from "./componets/BlogEntries";
+import AboutCard from "./componets/AboutCard";
+import Posts from "./componets/Posts";
+import Tags from "./componets/Tags";
+import Footer from "./componets/Footer";
 
+const MyBlog ={
+    blog:[
+        {img:'https://www.w3schools.com/w3images/woods.jpg',title:'TITLE HEADING',data:'April 7, 2014',
+        text:'Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat.' +
+            ' Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.' +
+            ' Praesent tincidunt sed' +
+            'tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.'},
+
+        {img:'https://www.w3schools.com/w3images/bridge.jpg',title:'BLOG ENTRY',data:'April 2, 2014',
+        text:'Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat.' +
+            ' Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.' +
+            ' Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida' +
+            ' diam non fringilla.'}
+    ],
+
+    posts: [
+        {img:'https://www.w3schools.com/w3images/workshop.jpg',title:'Lorem',text:'Sed mattis nunc'},
+        {img:'https://www.w3schools.com/w3images/gondol.jpg',title:'Ipsum',text:'Praes tinci sed'},
+        {img:'https://www.w3schools.com/w3images/skies.jpg',title:'Dorum',text:'Ultricies congue'},
+        {img:'https://www.w3schools.com/w3images/rock.jpg',title:'Mingsum',text:'Lorem ipsum dipsum'}
+    ],
+
+}
+
+
+const divStyle = {
+    'max-width':'1400px'
+};
 function App() {
-  return (
- <div>
-     <form id="card" className="card" action="">
+    return (
+        <div className="w3-light-grey center">
+            <div className="w3-content divStyle">
+                <Header className="w3-container w3-center w3-padding-32"/>
+                <div className="w3-row">
+                    <div className="w3-col l8 s12">
+                        <BlogEntries blog={MyBlog.blog}/>
+                    </div>
 
-         <h1 className="title title2">Анкета для корпоративных клиентов</h1>
-         <p className="input_number">Личные данные</p>
-         <div id="personalData" className=" space">
-             <div><input id="surname" className="input1 input3 " type="text" data-name="Фамилия" placeholder="Фамилия"
-                         data-required={require}/>
-                        </div>
-             <div><input id="name" className="input1 input3" type="text" placeholder="Имя" data-name="Имя"
-                         data-required={require}/></div>
+                    <div className="w3-col l4">
+                        <AboutCard/>
+                        <Posts className="post" posts={MyBlog.posts}/>
+                        <Tags/>
+                    </div>
+                </div>
+            </div>
+            <Footer/>
 
-             <div><input id="fatherName" className="input1 input3" type="text" placeholder="Отчество"
-                         data-name="Отчество"
-                         data-required={require}/></div>
-
-         </div>
-         <p className="input_number">Паспортные данные</p>
-         <div id="passport" className="space">
-             <input id="dateOfBirth" className="input1 input3" type="date" data-name="Дата рождения"
-                    placeholder="Дата рождения"/>
-                 <input id="placeRegistration" className=" input1 input5" type="text"
-                        data-name="Место проживания по прописке" placeholder="Место проживания по прописке"/>
-         </div>
-         <div id="passportNumber" className=" space">
-             <input id="anId" className="input1  input3" type="text" data-name="Серийный номер AN/ID"
-                    placeholder="Серийный номер AN/ID"/>
-                 <input id="inn" className="input1  input3" type="text" data-name="ИНН" placeholder="ИНН"/>
-                     <input id="dateReceived" className="input1  input3" type="date" data-name="Дата получения"
-                            placeholder="Дата получения"/>
-         </div>
-         <div id="contact" className="space">
-             <input id="phoneNumber" className="input1  input3" type="text" data-name="Контактный номер"
-                    placeholder="Контактный номер"/>
-                 <input id="email" className="input1  input3" type="text" data-name="Электронный адрес"
-                        placeholder="Электронный адрес"/>
-                     <select id="bank" className="input1  input3" data-name="Наимненование банка">
-                         <option value="">Наимненование банка</option>
-                         <option value="Optima Bank">Optima Bank</option>
-                         <option value="Demir bank">Demir bank</option>
-                     </select>
-         </div>
-         <input id="placeResidence" className="input1  input5" type="text" data-name="Фактическое место проживания"
-                placeholder="Фактическое место проживания"/>
-
-
-             <div className="row_center">
-                 <button id="btn" className="btn"><a href="#">Далее</a></button>
-             </div>
-     </form>
- </div>
-  );
+        </div>
+    );
 }
 
 export default App;
