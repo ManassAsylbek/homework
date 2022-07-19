@@ -32,14 +32,11 @@ const MyBlog ={
 }
 
 
-const divStyle = {
-    'max-width':'1400px'
-};
 function App() {
     return (
         <div className="w3-light-grey center">
-            <div className="w3-content divStyle">
-                <Header className="w3-container w3-center w3-padding-32"/>
+            <div className="w3-content">
+                <Header />
                 <div className="w3-row">
                     <div className="w3-col l8 s12">
                         <BlogEntries blog={MyBlog.blog}/>
@@ -47,7 +44,7 @@ function App() {
 
                     <div className="w3-col l4">
                         <AboutCard/>
-                        <Posts className="post" posts={MyBlog.posts}/>
+                        <Posts posts={MyBlog.posts}/>
                         <Tags/>
                     </div>
                 </div>
