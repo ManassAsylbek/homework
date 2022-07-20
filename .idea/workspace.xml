@@ -10,7 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b28ee6f-0868-4e42-a274-c83cdbd558ae" name="Default Changelist" comment="add:task" />
+    <list default="true" id="2b28ee6f-0868-4e42-a274-c83cdbd558ae" name="Default Changelist" comment="add:task">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componets/Task19-07/State.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/State.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componets/Task19-07/Task1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/Task1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componets/Task19-07/Task2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/Task2.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componets/Task19-07/Task3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/Task3.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="my_blog" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +56,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Андрей\Desktop\frontend\react\my-app\src\componets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Андрей\Desktop\frontend\react\my-app\src\componets\Task19-07" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -63,7 +79,9 @@
       <workItem from="1658145769528" duration="63000" />
       <workItem from="1658198352642" duration="5031000" />
       <workItem from="1658203811205" duration="1190000" />
-      <workItem from="1658285623843" duration="603000" />
+      <workItem from="1658285623843" duration="2016000" />
+      <workItem from="1658293786068" duration="7080000" />
+      <workItem from="1658305089685" duration="1117000" />
     </task>
     <task id="LOCAL-00001" summary="add:input">
       <created>1658119851696</created>
@@ -100,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658286219594</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add:task">
+      <created>1658286284081</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658286284081</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,9 +159,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1657857023086" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1658286229852">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1658286304067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1658286229852" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1658286304067" />
+    <state x="463" y="77" key="git4idea.branch.GitSmartOperationDialog" timestamp="1658302217615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="77" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1658302217615" />
   </component>
 </project>
