@@ -10,7 +10,7 @@ import React from 'react';
 
 const Task2 = (props) => {
 
-    const elementTag = props.tags.map(teg => <a className="teg" href={`${props.href}`}> {teg.title}</a>)
+    const elementTag = props.tags.map(teg => <a className="teg" href={teg.href}> {teg.title}</a>)
 
     return (
         <>

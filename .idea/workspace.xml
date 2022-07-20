@@ -10,14 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b28ee6f-0868-4e42-a274-c83cdbd558ae" name="Default Changelist" comment="add:task">
+    <list default="true" id="2b28ee6f-0868-4e42-a274-c83cdbd558ae" name="Default Changelist" comment="add:53 side efect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componets/Task19-07/State.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/State.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componets/Task19-07/Task1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/Task1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componets/Task19-07/Task2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/Task2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componets/Task19-07/Task3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/Task3.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,7 @@
       <workItem from="1658203811205" duration="1190000" />
       <workItem from="1658285623843" duration="2016000" />
       <workItem from="1658293786068" duration="7080000" />
-      <workItem from="1658305089685" duration="1117000" />
+      <workItem from="1658305089685" duration="3956000" />
     </task>
     <task id="LOCAL-00001" summary="add:input">
       <created>1658119851696</created>
@@ -125,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658286284081</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add:53 side efect">
+      <created>1658306867761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658306867761</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +149,8 @@
     <MESSAGE value="add:branch my blog" />
     <MESSAGE value="add:my blog" />
     <MESSAGE value="add:task" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:task" />
+    <MESSAGE value="add:53 side efect" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:53 side efect" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="275" key="#ESLint" timestamp="1658285915967">
@@ -159,10 +161,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1657857023086" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1658286304067">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1658306872684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1658286304067" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1658306872684" />
     <state x="463" y="77" key="git4idea.branch.GitSmartOperationDialog" timestamp="1658302217615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
